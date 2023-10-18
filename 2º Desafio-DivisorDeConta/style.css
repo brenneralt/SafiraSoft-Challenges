@@ -1,0 +1,100 @@
+#title {
+  position: relative;
+  left: 200px;
+  font-size: 1.5em;
+  color: #0063bf;
+}
+
+main {
+  position: absolute;
+  display: flex;
+  background: #69a6df;
+  width: 650px;
+  height: 340px;
+  border-radius: 10px;
+  font-family: Helvetica;
+
+  
+}
+.selecionarGorgeta{
+  margin-top: 40px;
+
+}    
+.porcentagem {
+      border-collapse: separate;
+      border-spacing: 10px;
+    }
+
+    .porcentagem tr th {
+
+      background-color: #fff;
+      width: 140px;
+      height: 35px;
+      border-radius: 8px;
+    }
+    .ladoEsquerdo {
+      margin: 20px 0px 20px 20px;
+    }
+    
+
+    .quantidadePessoas{
+      margin-top: 30px;
+    }
+
+.ladoDireito {
+  background: #0063bf;
+  width: 500px;
+  border-radius: 10%;
+  display: inline;
+  position: relative;
+  margin: 15px;
+  padding-top: 35px;
+}
+
+.tipoDeDivisao {
+  color: #fff;
+  margin-left: 40px;
+}
+.valorPorPessoa {
+  position: absolute;
+  right: 20px;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+.gorgeta {
+  margin-bottom: 65px;
+  
+}
+
+    .calcular {
+      border-collapse:separate;
+      border-spacing: 15px;
+      margin-top: 30px;
+    }
+    .calcular tr th {
+      background-color: white;
+    
+      padding: 15px;
+      border-radius: 8px;
+      width: 300px;
+      font-size: 17px;
+      
+    }
+        #color {
+          color: #fff;
+          margin-left: 8px;
+        }
+
+        #valores {
+          background-color: #fff;
+          text-align: right;
+          width: 93.5%;
+          height: 32px;
+          border-radius: 8px;
+          margin: 6px;
+          padding-right: 3px;
+        }
+
+

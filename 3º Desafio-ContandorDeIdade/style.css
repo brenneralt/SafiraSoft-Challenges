@@ -1,0 +1,145 @@
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(./fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: Poppins-Bold;
+  src: url(./fonts/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: Poppins-BoldItalic;
+  src: url(./fonts/Poppins-BoldItalic.ttf);
+}
+@font-face {
+  font-family: Poppins-ExtraBold;
+  src: url(./fonts/Poppins-ExtraBold.ttf);
+}
+@font-face {
+  font-family: Poppins-ExtraBoldItalic;
+  src: url(./fonts/Poppins-ExtraBoldItalic.ttf);
+}
+body {
+  background-color: #dcdcdc;
+}
+
+.quadro {
+  width: 600px;
+  height: 500px;
+
+  position: relative;
+  left: 150px;
+  top: 150px;
+  border-radius: 15px 15px 120px 15px;
+  padding: 50px 50px 0px 50px;
+  background-color: white;
+}
+
+
+.label1 {
+  font-size: 12px;
+  font-family: Poppins-Bold;
+  opacity: 80%;
+  margin-bottom: 7px;
+  
+}
+        .label1 span:nth-child(2) {
+        left: 120px;
+        position: relative;
+        
+        }
+        .label1 span:nth-child(3) {
+        left: 226px;
+        position: relative;
+        
+        }
+.label2 {
+        opacity: 45%;
+        
+}
+.label2 span {
+  border-radius: 8px;
+  display: inline-block;
+  padding: 12px;
+  padding-right: 70px;
+  text-align: left;
+  margin-right: 25px;
+  border-color: #fff;
+  border: solid gray;
+  border-width: 2px;
+  margin-bottom: 30px;
+  font-family: Poppins-Bold;
+  font-size: 22px;
+}
+
+.direcaoAbaixo {
+  background-color: #854cfd;
+  border-radius: 100%;
+  width: 65px;
+  height: 65px;
+  position: relative;
+  bottom: 40px;
+  left: 550px;
+}
+    #seta1 {
+    position: absolute;
+    padding: 10px;
+    height: 6px;
+    border: solid transparent;
+    box-shadow: 2.5px 0px white;
+    border-width: 0px 0px 0px 2px;
+    left: 9.3px;
+    top: 17px;
+    }
+    #setaLados{
+        position: relative;
+    padding: 7px;
+    width: 5px;
+    height: 5px;
+    border: solid, transparent;
+    border-radius: 50%;
+    border-color: white;
+}
+        .direcaoAbaixo div:nth-child(2) {
+            left: 12.5px;
+        top: 35px;
+        transform: rotate(-59deg);
+        box-shadow: -2px 0px 0px 0px white inset;
+        }
+        .direcaoAbaixo div:nth-child(3) {
+            left: 30.5px;
+        top: 16px;
+        transform: rotate(230deg);
+        box-shadow: -2px 0px 0px 0px white inset;
+        }
+
+
+
+        
+.parteBaixo {
+       margin-top: 20px;
+     }
+
+    #calendarList {
+    position: relative;
+    display: block;
+    font-size: 70px;
+    font-family: Poppins-ExtraBold;
+    bottom: 460px;
+    left: 150px;
+    }
+
+    .localDeData {
+    border-collapse: separate;
+    border-spacing: 30px 85px;
+    position: relative;
+    bottom: 110px;
+    right: 15px;
+    }
+        .localDeData tr th {
+        width: 45px;
+        height: 14px;
+        transform: skew(-10deg);
+
+        background-color: #854cfd;
+    }
+

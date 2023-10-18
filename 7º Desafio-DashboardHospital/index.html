@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="search-bar">
+        <span class="search-here">Search here...</span>
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+
+      <i class="fa-regular fa-bell"></i>
+      <i class="fa-regular fa-comment"></i>
+      <i class="fa-solid fa-circle-user"></i>
+
+      <div class="perfil-icon"></div>
+    </header>
+
+    <nav class="lateral-bar">
+      <img src="./base/image-removebg-preview.png" alt="" />
+      <h1 id="teste">Hospital</h1>
+
+      <div>
+        <h2>Dashboard</h2>
+
+        <div class="dashboard">
+          <span>Dashboard</span>
+
+          <img id="icon-casa" src="./base/house-fill.svg" alt="" />
+          <img id="icon-seta" src="./base/chevron-down.svg" alt="" />
+
+          <ol>
+            <li>Dashboard 1</li>
+            <li>Dashboard 2</li>
+          </ol>
+        </div>
+
+        <div>
+          <h2>Applications</h2>
+          
+          <div class="pages">
+            <i class="fa-solid fa-pager"></i>
+            <p>Pages</p>
+            <img id="seta-direita" src="./base/chevron-down.svg" alt="" />
+          </div>
+          
+          <div class="applications">
+            <p>Applications</p>
+            <img id="seta-direita" src="./base/chevron-down.svg" alt="" />
+          </div>
+        </div>
+
+        <div>
+          <h2>Components</h2>
+          <div>
+            <i class="fa-solid fa-palette"></i>
+            <p>Ui Component</p>
+            <img id="seta-direita" src="./base/chevron-down.svg" alt="" />
+          </div>
+          <div>
+            <p>Widgets</p>
+            <img id="seta-direita" src="./base/chevron-down.svg" alt="" />
+            <i class="fa-solid fa-palette"></i>
+          </div>
+          <div>
+            <i class="fa-brands fa-wpforms"></i>
+
+            <p>Forms</p>
+            <img id="seta-direita" src="./base/chevron-down.svg" alt="" />
+          </div>
+          <div>
+            <i class="fa-solid fa-chart-line"></i>
+            <p>Charts</p>
+            <img id="seta-direita" src="./base/chevron-down.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="info">
+        <div class="doctors">
+          <div>
+            <i class="fa-solid fa-user-doctor"></i>
+          </div>
+
+          <div>
+            <span id="grid">520</span>
+            <span class="description">Doctors</span>
+          </div>
+        </div>
+
+        <div class="Nurses">
+          <i class="fa-solid fa-user-nurse"></i>
+
+          <span id="grid">6969</span>
+          <span class="description">Nurses</span>
+        </div>
+
+        <div class="Patients">
+          <i class="fa-solid fa-wheelchair"></i>
+          <span id="grid">7509</span>
+          <span class="description">Patients</span>
+        </div>
+
+        <div class="Pharmacusts">
+          <i class="fa-solid fa-capsules"></i>
+          <span id="grid">2110</span>
+          <span class="description">Pharmocusts</span>
+        </div>
+      </section>
+
+      <section class="grafico"></section>
+    </main>
+  </body>
+</html>

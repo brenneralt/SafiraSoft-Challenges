@@ -1,0 +1,202 @@
+@font-face {
+    font-family: Ubuntu-bold;
+    src: url(../fonts/Ubuntu-Bold.ttf);
+}
+
+@font-face {
+    font-family: Ubuntu-regular;
+    src: url(../fonts/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+    font-family: Ubuntu-light;
+    src: url(../fonts/Ubuntu-Light.ttf);
+}
+
+body {
+    background-color: #f0f1f6;
+    margin: 0px;
+    padding: 0px;
+    max-width: 1000px;
+    max-height: 1080px;
+}
+
+header {
+    background-color: white;
+    border: white 2px solid;
+    width: 1569px;
+    height: 130px;
+    position: absolute;
+    left: 330px;
+
+
+
+
+
+}
+
+.search-bar {
+    width: 700px;
+    height: 50px;
+    background-color: #f0f1f6;
+    left: 40px;
+    position: absolute;
+    border-radius: 100px;
+    top: 40px;
+}
+
+.perfil-icon {
+    background-color: #f0f1f6;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 1430px;
+
+    border-radius: 100%;
+    top: 20px;
+}
+
+nav {
+    background-color: white;
+    width: 330px;
+    height: 1000px;
+    position: relative;
+
+
+    box-shadow: #f0f1f6 0px 0px 30px 6px;
+    margin: 0px;
+
+}
+
+.lateral-bar :nth-child(1) {
+    margin-left: 20px;
+    margin-top: 40px;
+
+}
+
+#icon-casa {
+    position: relative;
+    right: 80px;
+    top: 3px;
+    opacity: 50%;
+    width: 20px;
+}
+
+#icon-seta {
+    position: relative;
+    rotate: 180deg;
+    left: 140px;
+    opacity: 50%;
+
+}
+
+#seta-direita {
+    position: relative;
+
+    left: 280px;
+    bottom: 30px;
+    rotate: 270deg;
+}
+
+#teste {
+    font-family: Ubuntu-bold;
+    left: 120px;
+    bottom: 90px;
+    position: relative;
+    color: #636466;
+}
+
+.search-here {
+    font-family: Ubuntu-light;
+    opacity: 50%;
+    position: absolute;
+    left: 80px;
+    top: 15px;
+}
+
+h2 {
+    font-family: Ubuntu-regular;
+    color: #4a8990;
+    position: relative;
+    left: 15px;
+}
+
+nav span {
+    font-family: Ubuntu-regular;
+    left: 65px;
+    position: relative;
+    font-size: 19px;
+    color: #80acbf;
+
+}
+
+
+li {
+    font-family: Ubuntu-light;
+    list-style: none;
+    left: 30px;
+    bottom: 5px;
+    margin: 20px;
+    position: relative;
+}
+
+.info {
+
+    display: grid;
+    grid-template-columns: repeat(2, 534px);
+    grid-template-rows: repeat(2, 168px);
+
+    gap: 40px 60px;
+
+
+    position: relative;
+    left: 550px;
+    bottom: 800px;
+
+}
+
+.info div {
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+
+p {
+    font-family: Ubuntu-regular;
+    color: rgb(136, 132, 132);
+    position: relative;
+    left: 90px;
+}
+
+#grid {
+    font-family: Ubuntu-bold;
+    position: relative;
+    left: 230px;
+    top: 50px;
+    font-size: 35px;
+}
+
+.grafico {
+    display: grid;
+    position: relative;
+
+    left: 450px;
+    bottom: 750px;
+
+    background-color: white;
+    width: 1350px;
+    height: 400px;
+    border-radius: 10px;
+
+
+
+}
+
+.description {
+    position: relative;
+    top: 80px;
+    left: 145px;
+    opacity: 50%;
+    font-family: Ubuntu-regular;
+}

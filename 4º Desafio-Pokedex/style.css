@@ -1,0 +1,116 @@
+body {
+    background-color: gray;
+}
+section {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.numeroPokemon {
+
+    width: 325px;
+    height: 41px;
+    background-color: white;
+    border-radius: 10px;
+    
+
+}
+    #text-1 {
+
+    
+        left: 260px;
+        font-size: 35px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        bottom: 20px;
+     position:relative;
+
+    }
+    .numeroPokemon img {
+        width: 54px;
+        height: 54px;
+        position: relative;
+        left: 270px;
+        bottom: 5px;
+
+    }
+
+.card {
+    position: relative;
+    background-color: #3A0055;
+    width: 391px;
+    height: 494px;
+    top: 15px;
+    border-radius: 20px;
+    
+} 
+
+
+
+.nomePokemon {
+    background-color: white;
+    position: absolute;
+    
+    width: 333px;
+    height: 43px;
+    border-radius: 10px;
+    margin: 10px 31px;
+    
+    
+}   
+#text-2 {
+    position: relative;
+    font-size: 35px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        bottom: 4px;
+        font-style: bold;
+        left: 125px;
+}
+
+
+.quadroPokemon {
+    background-color: white;
+    width: 331px;
+    height: 340px;
+    border-radius: 30px;
+    margin: 10px 31px;
+    position: absolute;
+    top: 50px;
+}   .quadroPokemon img {
+    position: absolute;
+    width: 95%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+.elemento1 {
+    width: 136px;
+    height: 30px;
+    position: absolute;
+    top: 400px;
+    background-color: #f366b9;
+    margin: 25px 31px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    
+  
+    
+}
+.elemento2{
+    width: 136px;
+   height: 30px;
+    position:  absolute;
+    top: 400px;
+    background-color: #eed535;
+    margin: 25px 31px;
+    border-radius: 5px;
+    text-align: center;
+
+    left: 200px;
+    font-size: 30px;
+    
+    
+    
+    
+  
+}

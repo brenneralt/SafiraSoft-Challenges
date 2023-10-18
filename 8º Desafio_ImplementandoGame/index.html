@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rocket, paper, Scissors</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <script src="./js/script.js"></script>
+</head>
+
+<body>
+  <header class="wrapper">
+    <div class="tabelaDoPlacar">
+      <div class="nameGame">
+        <img src="./imgs/title.png" alt="" srcset="" />
+      </div>
+      <div class="score">
+        <p>SCORE</p>
+        <h1 id="ponto">0</h1>
+      </div>
+    </div>
+  </header>
+
+  <section class="hands">
+    <div class="div-papel">
+      <img  src="./imgs/icon-paper.svg" onclick="jokenpo(1)" alt="papel" />
+    </div>
+
+    <div class="div-tesoura">
+      <img src="./imgs/icon-scissors.svg" onclick="jokenpo(2)" alt="tesoura" />
+    </div>
+
+    <div class="div-pedra">
+      <img src="./imgs/icon-rock.svg" onclick="jokenpo(3)" alt="pedra" />
+    </div>
+  </section>
+  <!-- RESULTADO -->
+  <div class="contest">
+
+    <div class="escolhaDoPlayer">
+      <h1>VOCÊ ESCOLHEU</h1>
+      <!-- IconBut -->
+      <div class="container-player"></div>
+      
+    </div>
+
+    <div class="arbitro">
+      <div class="decision"> <h1 id="resultado">YOU WIN</h1> </div>
+      <div class="newGame" onclick="playAgain()"> <p >PLAY AGAIN</p> </div>
+</div>
+
+    <div class="escolhaDaMaquina">
+      <h1>A MÁQUINA ESCOLHEU</h1>
+      <!-- IconBut -->
+      <div class="container-cpu"></div>
+
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,158 @@
+body {
+  background: linear-gradient(97deg, rgba(24, 35, 67, 1) 20%, #1c2f4f 57%);
+}
+
+.game {
+  border: solid #566580;
+  width: 800px;
+  height: 150px;
+  margin: 50px 590px;
+  margin-bottom: 100px;
+  border-radius: 10px;
+}
+.nameGame {
+  margin: 20px 30px;
+}
+#nome {
+  display: block;
+
+  position: relative;
+
+  font-size: 30px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.selecao {
+  display: grid;
+  grid-template-rows: 1fr;
+
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+}
+
+#barra1 {
+  background-color: #15213b;
+  width: calc(170px + 20px);
+  position: absolute;
+  opacity: 90%;
+  top: 60px;
+  left: 152px;
+}
+#barra2 {
+  background-color: #15213b;
+  width: 104px;
+  position: absolute;
+  opacity: 90%;
+  rotate: 50deg;
+
+  right: 100px;
+  bottom: 161px;
+}
+#barra3 {
+  background-color: #15213b;
+  width: calc(104px + 5px);
+  position: absolute;
+  opacity: 90%;
+  rotate: -50deg;
+
+  left: 100.5px;
+  bottom: 162.5px;
+}
+
+.paper > span {
+  left: 151px;
+  top: 50px;
+}
+
+.paperBlue {
+  background-color: white;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+
+  border-style: solid;
+  border-color: #5570f0;
+  border-width: 20px;
+
+  box-shadow: inset 0px 6px 2px 0px rgb(218, 215, 215), 1px 6px 0px 0 #2944c0;
+
+  position: relative;
+  left: 720px;
+}
+
+.paperBlue > img {
+  left: 38px;
+  top: 38px;
+
+  position: relative;
+}
+.yellowScissors {
+  background-color: white;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+
+  border-style: solid;
+  border-color: #eba722;
+  border-width: 20px;
+
+  box-shadow: inset 0px 6px 2px 0px rgb(218, 215, 215), 1px 6px 0px 0 #c46b17;
+
+  position: relative;
+  left: 119px;
+}
+
+.yellowScissors > img {
+  left: 38px;
+  top: 38px;
+
+  position: relative;
+}
+.redRock {
+  background-color: white;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+
+  border-style: solid;
+  border-color: #dd415d;
+  border-width: 20px;
+
+  box-shadow: inset 0px 6px 2px 0px rgb(218, 215, 215), 1px 6px 0px 0 #9c1734;
+
+  position: relative;
+  left: 891px;
+  top: 50px;
+}
+
+.redRock > img {
+  left: 38px;
+  top: 43px;
+
+  position: absolute;
+}
+.score {
+  background-color: white;
+  position: relative;
+  width: 140px;
+  height: 126px;
+
+  left: 630px;
+  bottom: 130px;
+  border-radius: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#scoreID {
+  color: blue;
+
+  padding: 20px 45px;
+  display: flex;
+  padding-bottom: 5px;
+}
+#numero {
+  font-size: 55px;
+
+  padding: 35px;
+  color: rgb(59, 59, 59);
+}
